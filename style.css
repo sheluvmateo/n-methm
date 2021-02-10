@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+}
+.main{
+    width: 75%;
+    margin: 0 auto;
+}
+.main h1{
+    text-align: center;
+}
