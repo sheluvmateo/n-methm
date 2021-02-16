@@ -1,0 +1,49 @@
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus/style.css">
+    <link rel="stylesheet" href="stilus/css/bootstrap.css">
+    <title>Űrlap</title>
+</head>
+<body>
+    <div class="col-9 kozepre">
+        <h1>Regisztráció</h1>
+        <form action="">
+            <div class="mb-3">
+                <h2>Belépési adatok</h2>
+                <label for="mail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="mail" placeholder="name@example.com">
+                <br>
+                <label for="jelsz1" class="form-label">Email address</label>
+                <input type="password" class="form-control" id="jelsz1" placeholder="Your passw0rd">
+                <br>
+                <label for="jelsz2" class="form-label">Email address</label>
+                <input type="password" class="form-control" id="jelsz2" placeholder="Your passw0rd again">
+                <h2>Személyes adatok</h2>
+                <div class="radio col-7">
+                    <label for="gender" class="form-label">Gender</label>
+                    <table>
+                        <tr>
+                            <td>Male</td>
+                            <td><input type="radio" class="form-control" id="gender" name="gender" value="male"></td>
+                        </tr>
+                        <tr>
+                            <td>Female</td>
+                            <td><input type="radio" class="form-control" id="gender" name="gender" value="female"></td>
+                        </tr>
+                        <tr>
+                            <td>Csiga</td>
+                            <td><input type="radio" class="form-control" id="gender" name="gender" value="csiga"></td>
+                        </tr>
+                    </table>
+
+                </div>
+                <input type="submit" class="btn btn-success" value="Regisztrálok">
+            </div>
+              
+        </form>
+    </div>
+</body>
+</html>
