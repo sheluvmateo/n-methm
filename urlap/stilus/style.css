@@ -7,3 +7,19 @@
     margin: 15px 0;
 
 }
+.myrbt {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+    transform: scale(2);
+}
+.rbtlabel {
+    float: left;
+    clear: both;
+    display: block;
+    padding: 0px 1em 0px 8px;
+}
+.rbttable{
+    width: 50%;
+    margin: 0 auto;
+}
