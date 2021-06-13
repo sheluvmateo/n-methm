@@ -1,0 +1,30 @@
+.content{
+    width: 80%;
+    margin: 20px auto;
+}
+.gomb{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(177, 171, 17);
+    border-radius: 50%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.kek{
+    background-color: cyan;
+}
+.zold{
+    background-color: darkgreen;
+}
+.fekete{
+    background-color: black;
+}
+.feher{
+    background-color: white;
+}
+body{
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}

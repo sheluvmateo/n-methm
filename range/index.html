@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Range</title>
+</head>
+<body>
+    <h1>Háttér szín beállítása</h1>
+    <p>ez a weboldal szövege!</p>
+    <div class="content">
+        <div class="gomb zold" onclick="szin('darkgreen')"></div>
+        <div class="gomb kek" onclick="szin('cyan')"></div>
+        <div class="gomb feher" onclick="szin('white')"></div>
+        <div class="gomb fekete" onclick="szin('black')"></div>
+        <div class="clear"></div>,
+    </div>
+
+  <div class="content">
+      <img src="compman.gif" alt="" id="kep">
+      <br>
+      <input type="range" id="w" min="1" max="300" value="10" onclick="r1()">
+  </div>
+    <p id="er"></p>
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
