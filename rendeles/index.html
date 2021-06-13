@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rendelés</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm zold">
+            <h1>Rendelés</h1>            
+          </div>
+          <div class="col-sm kek" >
+            <input type="checkbox" id="felnott" onclick="felnott()" value="f"> Nagykorú
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-sm kek">
+                <h2>Italok</h2>
+                
+                    Sör <input type="number" name="s1" id="s1" value="0" max="10" disabled>db 300Ft/db <br>
+                    Bor <input type="number" name="b1" id="b1" value="0" max="10" disabled>db 400Ft/db <br>
+                    Cola <input type="number" name="c1" id="c1" value="0" max="10">db 500Ft/db <br>
+                
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm lila">
+                <h2>Hambik</h2>
+                
+                    Sima <input type="number" id="sim" name="sim" value="0" max="10">db 300Ft/db <br>
+                    Sajtos <input type="number" id="saj" name="saj" value="0" max="10">db 400Ft/db <br>
+                    Dupla Sajtos <input type="number" id="dup" name="dup" value="0" max="10">db 500Ft/db <br>
+                
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm zold">
+                <h2>Rendelés</h2>
+                
+                    <input type="button" class="btn btn-success" value="Rendelés" onclick="ital()">
+                    <input type="reset" class="btn btn-danger" value="Mégse">
+                
+               
+                <p class="rendel" id="rend"></p>
+                <p id="osszeg"></p>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+
+
+
+    <script LANGUAGE="Javascript" type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

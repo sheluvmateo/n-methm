@@ -1,0 +1,38 @@
+*{}
+h1{
+    text-align: center;
+}
+.main{
+    width:80%;
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+table{
+    width:100%;
+}
+table tr td{
+    /*border:1px solid black;*/
+    width:33%;
+    text-align: center;
+    padding: 1%;
+}
+.kep{
+    width:100%;
+}
+.gep{
+    width:50%;
+}
+.mehet{
+    
+    width: 100%;
+    background-color: cyan;
+    border-radius: 40px;
+    margin: 0 auto;
+    font-family: fantasy;
+    font-size: 300%;
+    color: fuchsia;
+    text-align: center;
+    padding: 1%;
+
+}

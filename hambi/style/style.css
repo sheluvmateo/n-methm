@@ -1,0 +1,22 @@
+.tablazat{
+    width: 80%;
+    margin: 20px auto;
+}
+table{
+    width: 100%;
+}
+.bal,.jobb{
+    width: 40px;
+}
+.bal img,.jobb img{
+    width: 200px;
+}
+.imgc{
+    border: 3px solid rgb(131, 111, 82);
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 5px 5px 10px darkslategrey;
+}
+body{
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+body{
+    padding: 5%;
+}
+.zold{
+    background-color: aquamarine;
+}
+.kek{
+    background-color: rgb(159, 192, 235);
+}
+.lila{
+    background-color: rgb(216, 152, 241);
+}
+input{
+    width: 100px;
+}
+.rendel{
+    font-weight: bold;
+}

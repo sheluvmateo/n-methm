@@ -1,0 +1,48 @@
+*{}
+body{
+    padding: 25px;
+    background-color: blanchedalmond;
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+.tablazat{
+    width: 80%;
+    margin: 20px auto;
+}
+table{
+    width: 100%;
+}
+
+.bal,.jobb{
+    width: 40px;
+}
+.bal img,.jobb img{
+    width: 200px;
+}
+.kep{
+    text-align: center;
+    padding: 20px;
+}
+.imgc{
+    border: 3px solid rgb(131, 111, 82);
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 5px 5px 10px darkslategrey;
+}
+.belyeg{
+    text-align: center;
+}
+.belyeg img{
+    width: 80px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px darkslategrey;
+    margin: 10px 100px;
+}
+.imgu{
+    border: 3px solid rgb(6, 2, 250);
+}
+.imge{
+    border: 3px solid rgb(253, 4, 87);
+}

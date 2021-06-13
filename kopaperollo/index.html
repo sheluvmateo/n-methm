@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    Folytatás 2021.04.20. kedd
+    <h1>Dupla vagy semmi</h1>
+    <div class="main">
+        <table>
+            <tr>
+                <td>
+                    <img src="pic/ko.png" alt="" class="kep"><br>
+                    kő <input type="radio" id="ko" name="jatekos" value="ko">
+                </td>
+                <td>
+                    <img src="pic/papir.png" alt="" class="kep"><br>
+                    papír <input type="radio" name="jatekos" id="papir" value="papir">
+                </td>
+                <td>
+                    <img src="pic/ollo.png" alt="" class="kep">
+                    olló <input type="radio" name="jatekos" id="ollo" value="ollo">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <img src="pic/egyben.png" id="egyben" class="gep">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Robot
+                    <p id="rer">0</p>
+                </td>
+                <td><center><input type="button" name="gomb" id="gomb" class="mehet" value="Játék" onclick="jatek()" disabled></center></td>
+                <td>
+                    Vendég
+                    <p id="ver">0</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="eredmeny">
+        <p id="er"></p>
+        <p id="teszt"></p>
+    </div>
+    <script src="script/jatek.js"></script>
+</body>
+</html>
